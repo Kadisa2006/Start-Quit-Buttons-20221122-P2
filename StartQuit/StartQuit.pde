@@ -3,17 +3,18 @@ Boolean start=false;
 //
 void setup() {} //End setup
 //
-void draw () 
+void draw ()
 {
-  if ( start==true ) background(0); //Night Mode not considered yet
+  background(0); //Night Mode not considered yet
 } //End draw
 //
 void keyPressed () {} //End KeyPressed
 //
-void mousePressed () 
+void mousePressed()
 {
   //
   //OS Level Start Button
+  start = true;
   //
 } //End mousePressed
 //

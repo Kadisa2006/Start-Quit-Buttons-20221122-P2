@@ -26,8 +26,8 @@ void draw ()
     background(0); //Night Mode not considered yet
     //
     //Hover Over Feature
-    println("X-value", quitButtonX, mouseY ,quitButtonX+quitButtonWidth );
-    println("Y-value", quitButtonY, mouseX ,quitButtonY+quitButtonHeight ); 
+    println("X-value", quitButtonX, mouseX ,quitButtonX+quitButtonWidth );
+    println("Y-value", quitButtonY, mouseY ,quitButtonY+quitButtonHeight ); 
     /*
     if () {
       quitButtonColour = yellow;

@@ -1,14 +1,15 @@
 //Global Variables
+int appWidth, appHeight;
 Boolean start=false, noNowReallyStart=false;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 //
 void setup()
 {
   //Display & Orientation Algorithms not consider yet
-  size();
+  size(400, 300); //Landscape
   //fullScreen(); //displayWidth, displayHeight
-  appWidth = ;
-  appHeight = ;
+  appWidth = width;
+  appHeight = height;
   //
   //Population
   quitButtonX = ;

@@ -1,3 +1,3 @@
 void debuggingLogicalRectangle() {
-  ekerr
-}
+  
+}//End debuggingLogicalRectangle

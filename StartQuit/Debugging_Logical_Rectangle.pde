@@ -1,0 +1,3 @@
+void debuggingLogicalRectangle() {
+  ekerr
+}

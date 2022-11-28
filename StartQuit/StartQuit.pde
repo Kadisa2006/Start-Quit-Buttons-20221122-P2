@@ -43,7 +43,7 @@ void mousePressed()
   //Hint Bug if continue pressing mouse
   //
   //Quit Button: Logical Rectangle, see println in draw()
-  if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
+  if ( mouseX<quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
   //
 } //End mousePressed
 //
